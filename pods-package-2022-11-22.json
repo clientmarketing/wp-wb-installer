@@ -1,0 +1,89 @@
+{
+    "@meta": {
+        "version": "2.9.9",
+        "build": 1669122694
+    },
+    "settings": {
+        "types_only": "0",
+        "watch_changed_fields": "0",
+        "metadata_integration": "1",
+        "metadata_override_get": "0",
+        "session_auto_start": "0",
+        "wisdom_opt_out": "1"
+    },
+    "pods": [
+        {
+            "name": "page-visit-counts",
+            "id": 6451,
+            "label": "Page-visit-counts",
+            "description": "",
+            "type": "post_type",
+            "storage": "meta",
+            "object": "page-visit-counts",
+            "_migrated_28": "1",
+            "meta_box_context": "normal",
+            "meta_box_priority": "default",
+            "required": "0",
+            "groups": [
+                {
+                    "name": "more_fields",
+                    "id": 6452,
+                    "label": "Einzelheiten",
+                    "description": "",
+                    "weight": 0,
+                    "meta_box_context": "normal",
+                    "meta_box_priority": "default",
+                    "roles_allowed": "administrator",
+                    "fields": [
+                        {
+                            "name": "visit_number",
+                            "id": 6453,
+                            "label": "Besuchsnummer",
+                            "description": "Link-Besuchsnummer",
+                            "weight": 0,
+                            "type": "number",
+                            "sister_id": "-- Select One --",
+                            "required": "0",
+                            "number_format_type": "number",
+                            "number_format": "i18n",
+                            "number_decimals": "0",
+                            "number_format_soft": "0",
+                            "number_step": "1",
+                            "number_max_length": "64",
+                            "number_html5": "0",
+                            "repeatable": "0",
+                            "repeatable_format": "default",
+                            "roles_allowed": "administrator",
+                            "rest_pick_response": "array",
+                            "rest_pick_depth": "1",
+                            "logged_in_only": "0",
+                            "admin_only": "0",
+                            "restrict_role": "0",
+                            "default_value": "0",
+                            "read_only": "1"
+                        },
+                        {
+                            "name": "embed",
+                            "id": 6462,
+                            "label": "Embed",
+                            "description": "Zeigt das Element an, das auf der Tracking-Seite platziert werden soll",
+                            "weight": 1,
+                            "type": "text",
+                            "sister_id": "-- Select One --",
+                            "required": "0",
+                            "repeatable": "0",
+                            "repeatable_format": "default",
+                            "roles_allowed": "administrator",
+                            "rest_pick_response": "array",
+                            "rest_pick_depth": "1",
+                            "read_only": "1",
+                            "text_allowed_html_tags": "strong em a ul ol li b i img",
+                            "text_max_length": "255",
+                            "text_allow_html": "1"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
