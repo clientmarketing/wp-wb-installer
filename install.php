@@ -27,12 +27,6 @@
  * for start copy existing option values from the option_value column
  */
 
-
- 
-$pods_package = file_get_contents("pods-package-2022-11-22.json");
-var_dump(json_decode($pods_package, true));
-die("");
-
 if (!file_exists('wp-config.php')) {
   die("no wp-config.php found!");
 }
